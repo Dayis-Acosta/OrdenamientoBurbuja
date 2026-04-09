@@ -16,15 +16,15 @@ public class OrdenamientoBurbuja {
     }
     
      //Metodo Para Optimizar el codigo
-    public static void OrdenamientoBurbuja(int[]arr){
-           int n = arr.length; 
+    public static void OrdenamientoBurbuja(int[]arre){
+           int n = arre.length; 
         
         for(int i = 0; i<n-1; i++){
             for(int j = i+1; j<n; j++){
-                if(arr[i]>arr[j]){
-                    int aux = arr[j];
-                    arr[j] = arr[i];
-                    arr[i] = aux;
+                if(arre[i]>arre[j]){
+                    int aux = arre[j];
+                    arre[j] = arre[i];
+                    arre[i] = aux;
                 }
                 
             }
